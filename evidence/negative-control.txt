@@ -1,0 +1,6 @@
+=== RUN   TestKeyConflict
+    lab_test.go:156: want conflict, got 200
+--- FAIL: TestKeyConflict (0.06s)
+FAIL
+FAIL	github.com/henanpengyuyan4444-beep/order-reliability-lab/internal/lab	1.177s
+FAIL

@@ -1,0 +1,7 @@
+{"request_id":"req-smoke-restart","posts":1,"status":"succeeded","scenario":"process_kill_then_restart","effects":1}
+{"scenario":"normal","id":"4933535441454635325435434e5534365059424d494b4a504647","request_id":"req-ee71cae7-normal","observed":"succeeded","status":"succeeded","attempts":1,"effects":1,"posts":1}
+{"scenario":"commit_timeout","id":"364f364a5a334c4933324b49423447334d5848554a4934494f52","request_id":"req-ee71cae7-commit_timeout","observed":"unknown -> succeeded","status":"succeeded","attempts":2,"effects":1,"posts":1}
+{"scenario":"transient","id":"48344f364d32364c445235465242495348514e5544434b364a59","request_id":"req-ee71cae7-transient","observed":"unknown -> succeeded","status":"succeeded","attempts":3,"effects":1,"posts":3}
+{"scenario":"reject","id":"53544e4552344c4a5656444737573241464b3434345235424146","request_id":"req-ee71cae7-reject","observed":"pending -> rejected","status":"rejected","attempts":1,"effects":0,"posts":1}
+{"scenario":"query_unavailable","id":"42515a535541533645504c4b48564251435656444f4f55515349","request_id":"req-ee71cae7-query_unavailable","observed":"pending -> unknown -> needs_review","status":"needs_review","attempts":5,"effects":1,"posts":1}
+{"scenario":"malformed","id":"55354c42515a54485433534342564b334137555046594f345354","request_id":"req-ee71cae7-malformed","observed":"unknown -> succeeded","status":"succeeded","attempts":2,"effects":1,"posts":1}

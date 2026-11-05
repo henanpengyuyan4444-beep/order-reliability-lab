@@ -1,0 +1,70 @@
+	github.com/henanpengyuyan4444-beep/order-reliability-lab/cmd/lab		coverage: 0.0% of statements
+=== RUN   TestConcurrentIdempotency
+    lab_test.go:93: invalid uri authority: G:
+--- FAIL: TestConcurrentIdempotency (0.00s)
+=== RUN   TestKeyConflict
+    lab_test.go:143: invalid uri authority: G:
+--- FAIL: TestKeyConflict (0.00s)
+=== RUN   TestAtomicOrderAndEnqueueRollback
+    lab_test.go:165: invalid uri authority: G:
+--- FAIL: TestAtomicOrderAndEnqueueRollback (0.00s)
+=== RUN   TestNormalSuccess
+    lab_test.go:180: invalid uri authority: G:
+--- FAIL: TestNormalSuccess (0.00s)
+=== RUN   TestCommittedTimeoutReconcilesWithoutResubmit
+    lab_test.go:193: invalid uri authority: G:
+--- FAIL: TestCommittedTimeoutReconcilesWithoutResubmit (0.00s)
+=== RUN   TestRetryAfterAuthoritativeNotFound
+    lab_test.go:214: invalid uri authority: G:
+--- FAIL: TestRetryAfterAuthoritativeNotFound (0.00s)
+=== RUN   TestRetryBudgetKeepsAmbiguousOutcome
+=== RUN   TestRetryBudgetKeepsAmbiguousOutcome/unavailable
+    lab_test.go:226: invalid uri authority: G:
+=== RUN   TestRetryBudgetKeepsAmbiguousOutcome/query_unavailable
+    lab_test.go:226: invalid uri authority: G:
+--- FAIL: TestRetryBudgetKeepsAmbiguousOutcome (0.00s)
+    --- FAIL: TestRetryBudgetKeepsAmbiguousOutcome/unavailable (0.00s)
+    --- FAIL: TestRetryBudgetKeepsAmbiguousOutcome/query_unavailable (0.00s)
+=== RUN   TestPermanentRejection
+    lab_test.go:243: invalid uri authority: G:
+--- FAIL: TestPermanentRejection (0.00s)
+=== RUN   TestMalformedResponseIsUnknown
+    lab_test.go:253: invalid uri authority: G:
+--- FAIL: TestMalformedResponseIsUnknown (0.00s)
+=== RUN   TestRestartPending
+    lab_test.go:270: invalid uri authority: G:
+--- FAIL: TestRestartPending (0.00s)
+=== RUN   TestStaleAndDuplicateMessagesCannotRegressTerminal
+    lab_test.go:300: invalid uri authority: G:
+--- FAIL: TestStaleAndDuplicateMessagesCannotRegressTerminal (0.00s)
+=== RUN   TestCrashOnLastAttemptReachesReview
+    lab_test.go:333: invalid uri authority: G:
+--- FAIL: TestCrashOnLastAttemptReachesReview (0.00s)
+=== RUN   TestCrashAfterProviderCommit
+    lab_test.go:355: helper did not crash at expected boundary: exit status 1 === RUN   TestCrashHelper
+            lab_test.go:397: invalid uri authority: G:
+        --- FAIL: TestCrashHelper (0.00s)
+        FAIL
+        coverage: 4.6% of statements
+--- FAIL: TestCrashAfterProviderCommit (0.05s)
+=== RUN   TestCrashHelper
+    lab_test.go:392: subprocess helper
+--- SKIP: TestCrashHelper (0.00s)
+=== RUN   TestBoundedWorkerPoolAndCancellation
+    lab_test.go:446: invalid uri authority: G:
+--- FAIL: TestBoundedWorkerPoolAndCancellation (0.00s)
+=== RUN   TestHTTPValidationAndSafeLogs
+    lab_test.go:492: invalid uri authority: G:
+--- FAIL: TestHTTPValidationAndSafeLogs (0.00s)
+=== RUN   TestGatewayRestrictionsAndOutputValidation
+--- PASS: TestGatewayRestrictionsAndOutputValidation (0.01s)
+=== RUN   TestProviderIdempotency
+    lab_test.go:555: invalid uri authority: G:
+--- FAIL: TestProviderIdempotency (0.00s)
+=== RUN   TestNotFound
+    lab_test.go:573: invalid uri authority: G:
+--- FAIL: TestNotFound (0.00s)
+FAIL
+coverage: 12.3% of statements
+FAIL	github.com/henanpengyuyan4444-beep/order-reliability-lab/internal/lab	2.722s
+FAIL

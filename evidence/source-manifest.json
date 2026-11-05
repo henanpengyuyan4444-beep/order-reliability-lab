@@ -1,0 +1,39 @@
+{
+  "sql_git_blob": "27a4ff36c18768eeff2b9c930057b6d5352e8bcf",
+  "sources": [
+    {
+      "path": "cmd\\lab\\main.go",
+      "sha256": "148BA850C8878E7982B6FCC5B21869F61C8628B108BFF90D8A587B2BF64AC81E"
+    },
+    {
+      "path": "internal\\lab\\goqite.sql",
+      "sha256": "85EEB845FBDAF32336B07DA10486779F2DAF8E12E46B41E8F231301BE39015F4"
+    },
+    {
+      "path": "internal\\lab\\http.go",
+      "sha256": "2554BF4B3632A3A61DF4718EBC24D5A4C643137BE6CB05EF45A9043AE4ACABDF"
+    },
+    {
+      "path": "internal\\lab\\lab_test.go",
+      "sha256": "75926A8E6BC14F15BE0B19EB195DFC03A01178FDA9160B7BBA614C7A6A22959C"
+    },
+    {
+      "path": "internal\\lab\\mock.go",
+      "sha256": "4406E5CDF5E2F38D02ED04CA97AD35DA3ED27640F9D27B2283CDC608FF70377C"
+    },
+    {
+      "path": "internal\\lab\\store.go",
+      "sha256": "7114B86FAA41B8AEAA53FF3885911233B8996758E44FC4354558E7D04917E9C7"
+    },
+    {
+      "path": "internal\\lab\\worker.go",
+      "sha256": "007B38A3DC5531463A26589373C0DCD7315946C2A3EBD57F462256CB6B06DA9A"
+    }
+  ],
+  "checked_utc": "2026-11-05T11:56:31.0218889Z",
+  "sqlite_version": "v1.14.52",
+  "goqite_version": "v0.4.0",
+  "goqite_commit": "471f9d49ce356737fc756a287007d7b4c54c61e1",
+  "sqlite_license_matches_pinned_module": true,
+  "expected_sql_git_blob": "27a4ff36c18768eeff2b9c930057b6d5352e8bcf"
+}

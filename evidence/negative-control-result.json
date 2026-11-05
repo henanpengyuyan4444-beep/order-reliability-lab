@@ -1,0 +1,7 @@
+{
+  "original_unchanged": true,
+  "utc": "2026-11-05T11:46:31.8137853Z",
+  "actual_exit": 1,
+  "detected": "missing idempotency conflict guard",
+  "expected_exit": "nonzero"
+}

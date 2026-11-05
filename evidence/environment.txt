@@ -1,0 +1,6 @@
+go version go1.27.3 windows/amd64
+gcc.exe (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 8.1.0
+
+Path
+----
+G:\CodexLabs\order-reliability-lab

@@ -1,0 +1,2 @@
+{"time":"2026-11-05T19:50:51.496971+08:00","level":"INFO","msg":"lab_started","url":"http://127.0.0.1:18089","workers":0,"mode":"local-learning-only"}
+{"time":"2026-11-05T19:50:52.0650003+08:00","level":"INFO","msg":"order_created","order_id":"4a4d414c34534a584232584c42495241575a4258334846573755","request_id":"req-smoke-restart"}

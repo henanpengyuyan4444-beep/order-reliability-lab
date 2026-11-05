@@ -1,0 +1,6 @@
+=== RUN   TestOversizedProviderResponseRejected
+    lab_test.go:590: oversized response accepted: {Status:succeeded Receipt:r Code:}
+--- FAIL: TestOversizedProviderResponseRejected (0.00s)
+FAIL
+FAIL	github.com/henanpengyuyan4444-beep/order-reliability-lab/internal/lab	1.066s
+FAIL

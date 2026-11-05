@@ -1,0 +1,50 @@
+?   	github.com/henanpengyuyan4444-beep/order-reliability-lab/cmd/lab	[no test files]
+=== RUN   TestConcurrentIdempotency
+--- PASS: TestConcurrentIdempotency (0.07s)
+=== RUN   TestKeyConflict
+--- PASS: TestKeyConflict (0.04s)
+=== RUN   TestAtomicOrderAndEnqueueRollback
+--- PASS: TestAtomicOrderAndEnqueueRollback (0.03s)
+=== RUN   TestNormalSuccess
+--- PASS: TestNormalSuccess (0.04s)
+=== RUN   TestCommittedTimeoutReconcilesWithoutResubmit
+--- PASS: TestCommittedTimeoutReconcilesWithoutResubmit (0.39s)
+=== RUN   TestRetryAfterAuthoritativeNotFound
+--- PASS: TestRetryAfterAuthoritativeNotFound (0.06s)
+=== RUN   TestRetryBudgetKeepsAmbiguousOutcome
+=== RUN   TestRetryBudgetKeepsAmbiguousOutcome/unavailable
+=== RUN   TestRetryBudgetKeepsAmbiguousOutcome/query_unavailable
+--- PASS: TestRetryBudgetKeepsAmbiguousOutcome (0.45s)
+    --- PASS: TestRetryBudgetKeepsAmbiguousOutcome/unavailable (0.06s)
+    --- PASS: TestRetryBudgetKeepsAmbiguousOutcome/query_unavailable (0.39s)
+=== RUN   TestPermanentRejection
+--- PASS: TestPermanentRejection (0.04s)
+=== RUN   TestMalformedResponseIsUnknown
+--- PASS: TestMalformedResponseIsUnknown (0.04s)
+=== RUN   TestRestartPending
+--- PASS: TestRestartPending (0.05s)
+=== RUN   TestStaleAndDuplicateMessagesCannotRegressTerminal
+--- PASS: TestStaleAndDuplicateMessagesCannotRegressTerminal (0.05s)
+=== RUN   TestCrashOnLastAttemptReachesReview
+--- PASS: TestCrashOnLastAttemptReachesReview (0.04s)
+=== RUN   TestCrashAfterProviderCommit
+2026/11/05 19:44:33 INFO order_claimed order_id=475153495044544d3352563242354432434c5546415553454f5a request_id=req_crash attempt=2 version=2
+2026/11/05 19:44:33 INFO order_result order_id=475153495044544d3352563242354432434c5546415553454f5a request_id=req_crash attempt=2 status=succeeded error_code=""
+--- PASS: TestCrashAfterProviderCommit (0.16s)
+=== RUN   TestCrashHelper
+    lab_test.go:392: subprocess helper
+--- SKIP: TestCrashHelper (0.00s)
+=== RUN   TestBoundedWorkerPoolAndCancellation
+--- PASS: TestBoundedWorkerPoolAndCancellation (0.14s)
+=== RUN   TestHTTPValidationAndSafeLogs
+--- PASS: TestHTTPValidationAndSafeLogs (0.04s)
+=== RUN   TestGatewayRestrictionsAndOutputValidation
+--- PASS: TestGatewayRestrictionsAndOutputValidation (0.00s)
+=== RUN   TestProviderIdempotency
+--- PASS: TestProviderIdempotency (0.04s)
+=== RUN   TestNotFound
+--- PASS: TestNotFound (0.04s)
+=== RUN   TestOversizedProviderResponseRejected
+--- PASS: TestOversizedProviderResponseRejected (0.00s)
+PASS
+ok  	github.com/henanpengyuyan4444-beep/order-reliability-lab/internal/lab	3.876s

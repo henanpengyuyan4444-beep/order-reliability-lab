@@ -1,0 +1,13 @@
+/data/
+/bin/
+*.db
+*.db-shm
+*.db-wal
+*.exe
+*.test
+coverage.out
+.env
+.env.*
+
+/.tools/
+/application-private/
