@@ -14,7 +14,7 @@
 6. [保证、假设与未实现内容](docs/design.md)
 7. [实际验证记录](docs/validation.md)
 8. [本人验收记录：初始全部待验收](docs/learner-scorecard.md)
-9. [定向简历与并行申请准备](docs/application-notes.md)
+9. [原全栈简历与并行申请准备](docs/application-notes.md)
 
 ## 在这台电脑运行
 
@@ -70,4 +70,4 @@ scenario 可为 normal、commit_timeout、transient、unavailable、reject、mal
 
 ## 项目阶段
 
-软件验证记录与“用户学会”分开。先交付可用项目与真实定向简历，学习、面试准备和投递准备并行；benchmark 不是投递硬门槛。尚未完成用户独立验收；本轮未投递公司，也不承诺通过面试。已有真实 AI 应用项目继续作为主要经历举证，不需要另凑聊天机器人。
+软件验证记录与“用户学会”分开。项目已可用，申请材料使用原全栈简历，学习、面试准备和投递准备并行；benchmark 不是投递硬门槛。尚未完成用户独立验收；本轮未投递公司，也不承诺通过面试。已有真实 AI 应用项目继续作为主要经历举证，不需要另凑聊天机器人。
